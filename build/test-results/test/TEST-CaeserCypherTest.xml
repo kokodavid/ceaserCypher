@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="CaeserCypherTest" tests="1" skipped="0" failures="1" errors="0" timestamp="2019-04-08T14:11:16" hostname="david-HP-EliteBook-8460p" time="0.003">
+<testsuite name="CaeserCypherTest" tests="1" skipped="0" failures="1" errors="0" timestamp="2019-04-08T15:12:47" hostname="david-HP-EliteBook-8460p" time="0.004">
   <properties/>
-  <testcase name="encryptCode" classname="CaeserCypherTest" time="0.003">
+  <testcase name="encryptCode" classname="CaeserCypherTest" time="0.004">
     <failure message="org.junit.ComparisonFailure: expected:&lt;[cd]&gt; but was:&lt;[ab]&gt;" type="org.junit.ComparisonFailure">org.junit.ComparisonFailure: expected:&lt;[cd]&gt; but was:&lt;[ab]&gt;
 	at org.junit.Assert.assertEquals(Assert.java:115)
 	at org.junit.Assert.assertEquals(Assert.java:144)

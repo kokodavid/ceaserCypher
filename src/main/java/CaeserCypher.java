@@ -1,23 +1,20 @@
-import jdk.internal.util.xml.impl.Input;
 
-public class CaeserCypher{
-    public String encryptCode(String Text,int Key) {
-        StringBuilder encryptedText = new StringBuilder(Text);
-        String alphabet = "abcdefghijklmnopqrstuvwxyz";
+public class CaeserCypher {
+    public String encryptCode(String Text, int Key) {
+        String encryptedText = new String();
+        String Alpha = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+        String upperCaseInput = Alpha.substring(Key) + Alpha.substring(0, Key);
 
-
-        for (int i = 0; i < encryptedText.length(); i++) {
-            char currentCharacter = Text.charAt(i);
-            int index = alphabet.indexOf(currentCharacter);
+        for(int i = 0;i <encryptedText.length();i++){
+            char thisCharacter = encryptedText.charAt(i);
+            int index = Alpha.indexOf(thisCharacter);
             if (index != -1){
-                char newCharacter = Input.charArt(i);
-              encryptedText.setCharAt(i ,newCharacter);
-
-            }
-
-
-            }
-
-        return encryptedText.toString();
+                String lowercaseInput = upperCaseInput.toLowerCase();
+                char newCharacter = lowercaseInput .charAt(index);
+                encryptedText setCharAt(index, newCharacter);
+            }        }
+        return encryptedText;
     }
-    }
+}
+
+

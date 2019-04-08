@@ -4,7 +4,7 @@ public class App {
 
     public static void main(String[] args) {
         Console myConsole = System.console();
-        System.out.println("Enter text to Encypyt");
+        System.out.println("Enter text to Encrypt");
         CaeserCypher Encrypt = new CaeserCypher();
         String encrypted = myConsole.readLine();
 
