@@ -10,9 +10,10 @@ public class CaeserCypher {
             int index = Alpha.indexOf(thisCharacter);
             if (index != -1){
                 String lowercaseInput = upperCaseInput.toLowerCase();
-                char newCharacter = lowercaseInput .charAt(index);
-                encryptedText setCharAt(index, newCharacter);
-            }        }
+                char newChart = lowercaseInput .charAt(index);
+
+            }
+        }
         return encryptedText;
     }
 }
