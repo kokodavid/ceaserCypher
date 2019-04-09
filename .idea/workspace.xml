@@ -68,19 +68,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+            <state relative-caret-position="258">
+              <caret line="22" column="70" lean-forward="true" selection-start-line="22" selection-start-column="70" selection-end-line="22" selection-end-column="70" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="358">
+            <state relative-caret-position="409">
               <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
             </state>
           </provider>
@@ -442,8 +442,8 @@
         <option value="$PROJECT_DIR$/src/main/java/App.java" />
         <option value="$PROJECT_DIR$/src/main/java/CaeserCypher.java" />
         <option value="$PROJECT_DIR$/gitignore" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -453,7 +453,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="width" value="789" />
     <option name="height" value="858" />
   </component>
@@ -715,17 +715,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+        <state relative-caret-position="409">
+          <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
+    <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="358">
-          <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
+        <state relative-caret-position="258">
+          <caret line="22" column="70" lean-forward="true" selection-start-line="22" selection-start-column="70" selection-end-line="22" selection-end-column="70" />
         </state>
       </provider>
     </entry>
