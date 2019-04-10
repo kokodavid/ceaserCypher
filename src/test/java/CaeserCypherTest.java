@@ -6,7 +6,7 @@ public class CaeserCypherTest {
     @Test
     public void encryptCode() {
         CaeserCypher encryptCode = new CaeserCypher();
-        assertEquals("cd", encryptCode.encryptCode("ab" ,1));
+        assertEquals("cd", encryptCode.encryptCode("ab" ,3));
     }
 
 

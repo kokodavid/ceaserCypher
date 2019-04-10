@@ -4,12 +4,11 @@ public class App {
 
     public static void main(String[] args) {
         Console myConsole = System.console();
+        CaeserCypher cypher = new CaeserCypher();
+        String plainText = myConsole.readLine();
         System.out.println("Enter text to Encrypt");
-        CaeserCypher Encrypt = new CaeserCypher();
-        String encrypted = myConsole.readLine();
-
-        String result = Encrypt.encryptCode(encrypted, 3);
+        int shift = 3;
+        String result = cypher.encryptCode(plainText,shift);
         System.out.println(result);
-
     }
 }
